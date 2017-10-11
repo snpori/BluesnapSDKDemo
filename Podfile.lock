@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.5.0)
+  - BluesnapSDK (0.0.2):
+    - BluesnapSDK/DataCollector (= 0.0.2)
+  - BluesnapSDK/DataCollector (0.0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - BluesnapSDK (from `https://github.com/bluesnap/bluesnap-ios.git`, branch `kount`)
+  - BluesnapSDK/DataCollector (from `https://github.com/bluesnap/bluesnap-ios.git`, branch `kount`)
+
+EXTERNAL SOURCES:
+  BluesnapSDK:
+    :branch: kount
+    :git: https://github.com/bluesnap/bluesnap-ios.git
+
+CHECKOUT OPTIONS:
+  BluesnapSDK:
+    :commit: a68efaa3274780a3626dd0109835f6b6d6c9c79a
+    :git: https://github.com/bluesnap/bluesnap-ios.git
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  BluesnapSDK: 3d77c808c072e766d1c5e7166edd5ee6a5a7e276
+
+PODFILE CHECKSUM: 8df8f1061aeff09438b3ac0182c26ab80fd99abd
+
+COCOAPODS: 1.2.1
